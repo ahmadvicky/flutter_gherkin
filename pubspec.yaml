@@ -16,7 +16,11 @@ dependencies:
     sdk: flutter
   glob: ^1.1.7
   meta: ">=1.1.6 <2.0.0"
-  gherkin: ^1.1.8+4
+#   gherkin: ^1.1.8+4
+  gherkin:
+    git:
+      url: https://github.com/ahmadvicky/dart_gherkin.git
+#       ref: 51bd86bcb1b65e24c657e01b43535867c37ad544
   # gherkin:
     # path: ../dart_gherkin
 
